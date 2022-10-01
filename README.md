@@ -1,4 +1,6 @@
-<h2> Frontend </h2>
+# AGIT-FullStack Test
+
+## Frontend
 ### Stacks : HTML, CSS, Javascript (ReactJS)
 
 How to use:
@@ -14,7 +16,7 @@ For example:
 1. localhost:3000/2
 2. localhost:3000/user/4
 
-<h2> Backend </h2>
+## Backend
 ### Stacks : Golang, MySQL (Database)
 
 How to use:
