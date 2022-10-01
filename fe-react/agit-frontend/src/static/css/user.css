@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(254, 249, 231);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.page-title {
+    font-size: 35px;
+    color: orange;
+    background-color: rgb(254, 249, 231);
+    border: 0px solid white;
+    border-radius: 5px;
+
+    margin: auto;
+    width: 40%;
+
+}
+
+.container {
+    border: 0.5px solid white;
+    border-radius: 5px;
+
+    background-color: white;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+.table-container {
+    margin-top: 3rem;
+}
+
+.table-container .left {
+    width: 50%;
+}
+
+.table-container .right {
+    width: 50%;
+}
+
+.user-table {
+    width: 100%;
+}
+
+.label {
+    font-size: 26px;
+    color: orange;
+}
+
+.label-value {
+    border: 0.5px solid black;
+    border-radius: 5px;
+
+    font-weight: 300;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 0.5rem;
+
+    margin-bottom: 2rem;
+
+    width: 80%;
+
+}
+
+#btn-back {
+    background-color: blue;
+    color: white;
+    margin-bottom: 0.5rem;
+
+    border: 0px solid;
+
+    width: 80%;
+}
+
+#btn-delete {
+    background-color: red;
+    color: white;
+
+    border: 0px white;
+
+    width: 80%;
+
+}

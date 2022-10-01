@@ -1,0 +1,9 @@
+CREATE TABLE user (
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    address VARCHAR(200) NOT NULL
+);
+
+INSERT INTO user(name, address) VALUES ("Rafi", "Joglo");
+INSERT INTO user(name, address) VALUES ("Rio", "Kelapa Dua");
+INSERT INTO user(name, address) VALUES ("Adnan", "Joglo");

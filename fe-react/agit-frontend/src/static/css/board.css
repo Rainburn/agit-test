@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(254, 249, 231);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page-title {
+    font-size: 35px;
+    color: orange;
+    background-color: rgb(254, 249, 231);
+    border: 0px solid white;
+    border-radius: 5px;
+
+    margin:auto;
+    width: 40%;
+
+}
+
+.divider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-table {
+    width: 100%;
+}
+
+.list-container{
+    border: 0.5px solid white;
+    border-radius: 5px;
+
+    background-color: white;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+}
+
+.cust-list {
+}
+
+.list-header {
+    /* border: 2px solid; */
+}
+
+.list-header .customer {
+    width: 80%;
+}
+
+.list-header .id {
+    width: 10%;
+}
+
+.list-header .address {
+    width: 100%;
+}
+
+.list-member .customer {
+    width: 80%;
+    padding-left: 1rem;
+}
+
+.list-member .customer .name {
+    font-weight: 500;
+}
+
+.list-member .customer .address {
+    font-weight: 200;
+}
+
+.list-member .id {
+    width: 10%;
+}
+
+.list-member .address {
+    width: 100%;
+}
+
+.list-member {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid;
+    border-radius: 5px;
+
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 2px 1px;
+}
+
+.user-btn {
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: rgb(62, 152, 255);
+    color: white;
+    
+}
+
+.pagination {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: white;
+    border-radius: 5px;
+}
+
